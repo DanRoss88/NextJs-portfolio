@@ -17,10 +17,10 @@ export default function FirstAide() {
             <h1 className={styles.headingXl}>First Aide</h1>
           <div className={styles.projectPicture}>
           <Image 
-            src="/images/first-aide.png"
+            src="/images/speech-recognition.gif"
             alt="First Aide"
-            width={200}
-            height={200}
+            width={720}
+            height={480}
           />
           </div>
           <br />

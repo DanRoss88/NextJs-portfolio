@@ -22,9 +22,8 @@ export default function Projects() {
             <li className={utilStyles.listItem} >
               <Link href="/project/first-aide">   
               <Image 
-                src="/images/first-aide.png"
+                src="/images/first-aide-icon.png"
                 alt="First Aide"
-                className={utilStyles.projectPicture}
                 width={180}
                 height={180}
               />
