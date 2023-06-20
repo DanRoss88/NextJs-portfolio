@@ -22,10 +22,14 @@ export default function Home({ allPostsData}) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm <strong>Dan</strong>. I'm a full-stack web developer. You can contact me on <Link href="https://github.com/danross88">Github</Link> or <Link href="https://linkedin.com/in/dan-ross-webdev">LinkedIn</Link>.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        </section>
+        <section className={utilStyles.headingMd}>
+        <p>Here's some of my past projects.</p>
+        <br /> 
+        <Link href="https://github.com/danross88/first-aide-client">First Aide</Link><Link href="https://github.com/danross88/first-aide-server">First Aide Server</Link><p>
+        First Aide is an AI-powered personal health assistant that utilizes speech recognition and Open AI to provide medical related advice. It also keeps track of personal medical records.</p>
+        <br />
+
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
