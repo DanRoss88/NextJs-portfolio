@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
+import { AiOutlineLink } from "react-icons/ai";
 
 export default function TinyApp() {
   return (
@@ -24,7 +25,9 @@ export default function TinyApp() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/tinyapp">TinyApp</Link>
+            <Link href="https://github.com/DanRoss88/tinyapp">
+              <AiOutlineLink /> TinyApp
+            </Link>
           </div>
           <p>
             TinyApp was the first full-stack web application that I built. It

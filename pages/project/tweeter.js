@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
+import { AiOutlineLink } from "react-icons/ai";
 
 export default function Tweeter() {
   return (
@@ -24,7 +25,9 @@ export default function Tweeter() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/tweeter">Tweeter</Link>
+            <Link href="https://github.com/DanRoss88/tweeter">
+              <AiOutlineLink /> Tweeter
+            </Link>
           </div>
           <p>
             Tweeter is a simple, single-page Twitter clone. I took this project

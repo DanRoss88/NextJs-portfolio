@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import styles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
+import { AiOutlineLink } from "react-icons/ai";
 
 export default function FirstAide() {
   return (
@@ -23,20 +24,21 @@ export default function FirstAide() {
             />
           </div>
           <br />
-          <div className={styles.gridList}>
+          <div className={styles.gridContainer}>
             <Link href="https://github.com/danross88/first-aide-client">
-              First Aide
+              <AiOutlineLink /> First Aide
             </Link>
             <br />
             <Link href="https://github.com/danross88/first-aide-server">
-              First Aide Server
+              <AiOutlineLink /> First Aide Server
             </Link>
           </div>
           <div className={styles.backToHome}>
             <p>
               First Aide is an AI-powered personal health assistant that
               utilizes speech recognition and Open AI to provide medical related
-              advice. It also keeps track of personal medical records. This was a collaborative effort for my final project at Lighthouse Labs.
+              advice. It also keeps track of personal medical records. This was
+              a collaborative effort for my final project at Lighthouse Labs.
             </p>
           </div>
         </section>

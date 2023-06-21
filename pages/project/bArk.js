@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
+import { AiOutlineLink } from "react-icons/ai";
 
 export default function bArk() {
   return (
@@ -24,7 +25,9 @@ export default function bArk() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/bArk">bArk</Link>
+            <Link href="https://github.com/DanRoss88/bArk">
+              <AiOutlineLink /> bArk
+            </Link>
           </div>
           <p>
             bArk is a full-stack web application that allows users to create,
