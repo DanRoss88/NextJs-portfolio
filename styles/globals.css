@@ -49,6 +49,19 @@ img {
   object-fit: cover;
 }
 
+
+@media screen and (max-width: 480px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navLink {
+    margin: 0 1rem;
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .grid {
     width: 100%;
