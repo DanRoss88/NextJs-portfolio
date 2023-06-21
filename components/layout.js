@@ -1,18 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import profile from "../public/images/profile.jpg";
 import Header from "./header";
-
-
+import Socials from "./socials";
 
 export const siteTitle = "Dan Ross Professional Portfolio";
 
-export default function Layout({ children, home }) {
+export default function Layout({children}) {
   return (
-    
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -26,17 +21,10 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header>
-        
-      </Header>
-      
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to Home</Link>
-        </div>
-      )}
+      <Header />
+<main>{children}</main>
+     
+      {/* <Socials /> */}
     </div>
-   
   );
 }

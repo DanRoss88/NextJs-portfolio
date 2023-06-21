@@ -1,27 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
-import profile from "../public/images/profile.jpg"
-
+import profile from "../public/images/DanHeadShot.jpeg"
+import Navbar from "./navbar";
 
 const name = "Dan Ross";
 export default function Header({ home }) {
   return (
     <header className={utilStyles.header}>
-      <nav className='navbar'>
-        <Link href="/" passHref>
-          <span className={utilStyles.navLink}>Home</span>
-        </Link>
-        <Link href="/projects" passHref>
-          <span className={utilStyles.navLink}>Projects</span>
-        </Link>
-        <Link href="/resume" passHref>
-          <span className={utilStyles.navLink}>Resume</span>
-        </Link>
-        <Link href="/contact" passHref>
-          <span className={utilStyles.navLink}>Contact</span>
-        </Link>
-      </nav>
+     <Navbar />
       <div className={utilStyles.headerContent}>
         {home ? (
           <>

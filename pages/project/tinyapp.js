@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../../components/layout";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
-import Contact from "../../components/contact";
+import Socials from "../../components/socials";
 
 export default function TinyApp() {
   return (
@@ -24,18 +24,18 @@ export default function TinyApp() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/tinyapp">
-              TinyApp
-            </Link>
+            <Link href="https://github.com/DanRoss88/tinyapp">TinyApp</Link>
           </div>
           <p>
-          TinyApp was the first full-stack web application that I built. It allows users to shorten long URLs. It was built using Node.js and Express.
+            TinyApp was the first full-stack web application that I built. It
+            allows users to shorten long URLs. It was built using Node.js and
+            Express.
           </p>
         </section>
         <div className={utilStyles.backToHome}>
           <Link href="/projects">← Back to Projects</Link>
         </div>
-        <Contact />
+      <Socials />
       </main>
     </Layout>
   );

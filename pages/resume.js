@@ -3,8 +3,8 @@ import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Contact from "../components/contact";
 import { AiOutlineLink } from "react-icons/ai";
+import Socials from "../components/socials";
 
 export default function Resume() {
   return (
@@ -33,7 +33,7 @@ export default function Resume() {
           </Link>
         </div>
       </main>
-      <Contact />
+      <Socials />
     </Layout>
   );
 }

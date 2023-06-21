@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../../components/layout";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
-import Contact from "../../components/contact";
+import Socials from "../../components/socials";
 
 export default function Tweeter() {
   return (
@@ -24,18 +24,19 @@ export default function Tweeter() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/tweeter">
-              Tweeter
-            </Link>
+            <Link href="https://github.com/DanRoss88/tweeter">Tweeter</Link>
           </div>
           <p>
-          Tweeter is a simple, single-page Twitter clone. I took this project on to learn more about front-end development and to practice my HTML, CSS, JS, jQuery and AJAX front-end skills. I customized the design to my liking and added a few features of my own.
+            Tweeter is a simple, single-page Twitter clone. I took this project
+            on to learn more about front-end development and to practice my
+            HTML, CSS, JS, jQuery and AJAX front-end skills. I customized the
+            design to my liking and added a few features of my own.
           </p>
         </section>
         <div className={utilStyles.backToHome}>
           <Link href="/projects">← Back to Projects</Link>
         </div>
-        <Contact />
+        <Socials />
       </main>
     </Layout>
   );
