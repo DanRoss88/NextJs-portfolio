@@ -13,7 +13,18 @@ body {
   background-blend-mode: soft-light;
   background-color: rgba(0, 0, 0, 0.6);
 }
-
+.navbar {
+  position: fixed;
+  background-image: url('../public/images/landing-image.jpg');
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  z-index: 100;
+  margin-bottom: 1rem;
+}
 * {
   box-sizing: border-box;
 }

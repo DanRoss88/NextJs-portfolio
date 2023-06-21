@@ -5,12 +5,19 @@ import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Contact from "../components/contact";
 
-export default function Home({ allPostsData }) {
+
+
+export default function Home() {
+
+
+
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
+    
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <strong>Dan</strong>. As a Full-stack Web Developer with a
