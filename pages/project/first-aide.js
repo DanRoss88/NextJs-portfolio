@@ -5,7 +5,6 @@ import Head from "next/head";
 import styles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
 
-
 export default function FirstAide() {
   return (
     <Layout>
@@ -34,11 +33,11 @@ export default function FirstAide() {
             </Link>
           </div>
           <div className={styles.backToHome}>
-          <p>
-            First Aide is an AI-powered personal health assistant that utilizes
-            speech recognition and Open AI to provide medical related advice. It
-            also keeps track of personal medical records.
-          </p>
+            <p>
+              First Aide is an AI-powered personal health assistant that
+              utilizes speech recognition and Open AI to provide medical related
+              advice. It also keeps track of personal medical records. This was a collaborative effort for my final project at Lighthouse Labs.
+            </p>
           </div>
         </section>
         <div className={styles.backToHome}>

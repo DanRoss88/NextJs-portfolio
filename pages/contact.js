@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Socials from "../components/socials";
 
-
 export default function ContactMe() {
   return (
     <Layout>
@@ -33,11 +32,10 @@ export default function ContactMe() {
               danielmartinross@gmail.com
             </Link>
           </p>
-          
-          </div>
+        </div>
       </main>
-      
-    <Socials />  
+
+      <Socials />
     </Layout>
   );
 }

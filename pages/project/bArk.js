@@ -5,7 +5,6 @@ import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
 
-
 export default function bArk() {
   return (
     <Layout>

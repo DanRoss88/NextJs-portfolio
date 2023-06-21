@@ -29,8 +29,9 @@ export default function Portfolio() {
             </Link>
           </div>
           <p>
-          This portfolio started out as a NextJs blog tutorial. I then customized it to my liking and added a few features of my own. I used NextJs, React, and CSS to build this portfolio.
-
+            This portfolio started out as a NextJs blog tutorial. I then
+            customized it to my liking and added a few features of my own. I
+            used NextJs, React, and CSS to build this portfolio.
           </p>
         </section>
         <div className={utilStyles.backToHome}>

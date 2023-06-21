@@ -35,7 +35,7 @@ export default function TinyApp() {
         <div className={utilStyles.backToHome}>
           <Link href="/projects">← Back to Projects</Link>
         </div>
-      <Socials />
+        <Socials />
       </main>
     </Layout>
   );

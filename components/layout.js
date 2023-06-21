@@ -6,7 +6,7 @@ import Socials from "./socials";
 
 export const siteTitle = "Dan Ross Professional Portfolio";
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -22,8 +22,8 @@ export default function Layout({children}) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header />
-<main>{children}</main>
-     
+      <main>{children}</main>
+
       {/* <Socials /> */}
     </div>
   );

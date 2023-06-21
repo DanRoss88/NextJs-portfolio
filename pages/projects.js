@@ -111,7 +111,7 @@ export default function Projects() {
           </Link>
         </li>
       </ul>
-      
+
       <Socials />
     </main>
   );
