@@ -14,7 +14,7 @@ export default function Resume() {
       </Head>
       <main className="container">
         <h1 className={utilStyles.headingXl}>Resume</h1>
-        <div className={utilStyles.listItem}>
+        <div className={utilStyles.firstAidePic}>
         <br />
         <Image
           src="/images/DansResume.jpg"
