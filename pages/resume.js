@@ -14,7 +14,7 @@ export default function Resume() {
       </Head>
       <main className="container">
         <h1 className={utilStyles.headingXl}>Resume</h1>
-
+        <div className={utilStyles.listItem}>
         <br />
         <Image
           src="/images/DansResume.jpg"
@@ -23,7 +23,7 @@ export default function Resume() {
           width={1024}
           height={791}
         />
-
+        </div>
         <br />
         <div className={utilStyles.list}>
           <Link href="https://flowcv.com/resume/9th3fq6rpv">
