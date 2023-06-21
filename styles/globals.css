@@ -67,6 +67,11 @@ img {
     width: 100%;
     flex-direction: column;
   }
+
+  .navLink {
+    margin: 0 1rem;
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 600px ) {
