@@ -144,7 +144,12 @@ object-fit: cover;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.resume img {
+  max-width: 100%; 
+  height: auto; 
 }
 
 @media screen and (max-width: 480px) {
@@ -152,4 +157,5 @@ object-fit: cover;
     margin: 0.5rem;
     font-size: 0.8rem;
   }
+
 }
