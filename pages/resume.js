@@ -14,12 +14,11 @@ export default function Resume() {
       </Head>
       <main className="container">
         <h1 className={utilStyles.headingXl}>Resume</h1>
-        <div className={utilStyles.firstAidePic}>
+        <div className={utilStyles.resume}>
         <br />
         <Image
           src="/images/DansResume.jpg"
           alt="resume"
-          className=""
           width={1024}
           height={791}
         />
