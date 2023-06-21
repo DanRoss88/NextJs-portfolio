@@ -1,0 +1,39 @@
+import Layout from "../components/layout";
+import Head from "next/head";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import Image from "next/image";
+import Contact from "../components/contact";
+import { AiOutlineLink } from "react-icons/ai";
+
+export default function Resume() {
+  return (
+    <Layout>
+      <Head>
+        <title>Resume</title>
+      </Head>
+      <main className="container">
+        <h1 className={utilStyles.headingXl}>Resume</h1>
+
+        <br />
+        <Image
+          src="/images/DansResume.jpg"
+          alt="resume"
+          className=""
+          width={1024}
+          height={791}
+        />
+
+        <br />
+        <div className={utilStyles.list}>
+          <Link href="https://flowcv.com/resume/9th3fq6rpv">
+            <span className={utilStyles.headingLg}>
+              <AiOutlineLink /> Resume
+            </span>
+          </Link>
+        </div>
+      </main>
+      <Contact />
+    </Layout>
+  );
+}
