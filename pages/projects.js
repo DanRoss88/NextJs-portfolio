@@ -26,7 +26,7 @@ export default function Projects() {
               <div className="w-32 h-32">
                 <div className={utilStyles.projectsImg}>
                   <Image
-                    src="/images/first-aide-icon.png"
+                    src="/images/firstAideIcon.png"
                     alt="First Aide"
                     width={180}
                     height={180}
@@ -43,7 +43,7 @@ export default function Projects() {
               <div className="w-32 h-32">
                 <div className={utilStyles.projectsImg}>
                   <Image
-                    src="/images/photo-labs.jpg"
+                    src="/images/photo-lab-logo.jpg"
                     alt="photo-lab"
                     width={180}
                     height={180}
@@ -60,7 +60,7 @@ export default function Projects() {
               <div className="w-32 h-32">
                 <div className={utilStyles.projectsImg}>
                   <Image
-                    src="/images/bark_logo.png"
+                    src="/images/bark_logo.jpg"
                     alt="bArk"
                     width={180}
                     height={180}
@@ -77,7 +77,7 @@ export default function Projects() {
               <div className="w-32 h-32">
                 <div className={utilStyles.projectsImg}>
                   <Image
-                    src="/images/Tweeter.png"
+                    src="/images/Tweeter1.png"
                     alt="Tweeter"
                     width={180}
                     height={140}
@@ -94,7 +94,7 @@ export default function Projects() {
               <div className="w-32 h-32">
                 <div className={utilStyles.projectsImg}>
                   <Image
-                    src="/images/tinyapplogo.png"
+                    src="/images/tinyapplogo.jpg"
                     alt="Tinyapp"
                     width={180}
                     height={140}
