@@ -6,6 +6,7 @@ import styles from "../../styles/utils.module.css";
 import Socials from "../../components/socials";
 import { AiOutlineLink } from "react-icons/ai";
 
+
 export default function FirstAide() {
   return (
     <Layout>

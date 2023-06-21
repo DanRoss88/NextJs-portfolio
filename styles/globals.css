@@ -27,7 +27,9 @@ body {
   padding: 20px;
   z-index: 100;
   margin-bottom: 1rem;
+  object-fit: cover;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -44,5 +46,33 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+  object-fit: cover;
 }
 
+@media screen and (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px ) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

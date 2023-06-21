@@ -27,6 +27,7 @@
 
 .borderCircle {
   border-radius: 9999px;
+  opacity: 0.8;
 }
 
 .colorInherit {
@@ -47,6 +48,8 @@
   margin: 1.25rem;
   position: relative;
   list-style-type: none;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .lightText {
@@ -101,6 +104,7 @@ margin: 0 auto;
 
 .webdevimg {
   opacity: 0.6;
+  object-fit: cover;
 }
 
 .socials {
@@ -127,6 +131,7 @@ margin: 0 auto;
 .projectsImg {
 opacity: 0.8;
 box-shadow: #999191 0px 0px 10px 0px; 
+object-fit: cover;
 }
 
 .projectsImg:hover {

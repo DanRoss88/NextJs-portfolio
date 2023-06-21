@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "./layout.module.css";
-import Link from "next/link";
 import Header from "./header";
 import Socials from "./socials";
 
@@ -11,6 +10,7 @@ export default function Layout({ children }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Dan Ross Professional Portfolio" />
         <meta
           property="og:image"
