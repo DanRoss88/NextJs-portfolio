@@ -24,12 +24,14 @@ export default function Projects() {
           <Link href="/project/first-aide">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/first-aide-icon.png"
-                  alt="First Aide"
-                  width={180}
-                  height={180}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/first-aide-icon.png"
+                    alt="First Aide"
+                    width={180}
+                    height={180}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">First Aide</span>
             </div>
@@ -39,12 +41,14 @@ export default function Projects() {
           <Link href="/project/photo-lab">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/photo-labs.jpg"
-                  alt="photo-lab"
-                  width={180}
-                  height={180}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/photo-labs.jpg"
+                    alt="photo-lab"
+                    width={180}
+                    height={180}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">PhotoLabs</span>
             </div>
@@ -54,12 +58,14 @@ export default function Projects() {
           <Link href="/project/bArk">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/bark_logo.png"
-                  alt="bArk"
-                  width={180}
-                  height={180}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/bark_logo.png"
+                    alt="bArk"
+                    width={180}
+                    height={180}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">bArk</span>
             </div>
@@ -69,12 +75,14 @@ export default function Projects() {
           <Link href="/project/tweeter">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/Tweeter.png"
-                  alt="Tweeter"
-                  width={180}
-                  height={140}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/Tweeter.png"
+                    alt="Tweeter"
+                    width={180}
+                    height={140}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">Tweeter</span>
             </div>
@@ -84,12 +92,14 @@ export default function Projects() {
           <Link href="/project/tinyapp">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/tinyapplogo.png"
-                  alt="Tinyapp"
-                  width={180}
-                  height={140}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/tinyapplogo.png"
+                    alt="Tinyapp"
+                    width={180}
+                    height={140}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">TinyApp</span>
             </div>
@@ -99,12 +109,14 @@ export default function Projects() {
           <Link href="/project/portfolio">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32">
-                <Image
-                  src="/images/portfolioLogo.jpg"
-                  alt="Tinyapp"
-                  width={180}
-                  height={140}
-                />
+                <div className={utilStyles.projectsImg}>
+                  <Image
+                    src="/images/portfolioLogo.jpg"
+                    alt="Tinyapp"
+                    width={180}
+                    height={140}
+                  />
+                </div>
               </div>
               <span className="mt-2 text-center">This Portfolio</span>
             </div>
