@@ -27,7 +27,6 @@ body {
   padding: 20px;
   z-index: 100;
   margin-bottom: 1rem;
-  object-fit: cover;
 }
 
 * {
@@ -60,6 +59,7 @@ img {
     margin: 0 1rem;
     font-size: 0.8rem;
   }
+
 }
 
 @media screen and (max-width: 600px) {
