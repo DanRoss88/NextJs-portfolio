@@ -4,7 +4,9 @@ This is a web developer portfolio project built using Next.js and Tailwind CSS.
 
 
 
-![Projects](/screenshots/projects.png)
+## Screenshot
+
+![/screenshots/projects.png](https://github.com/DanRoss88/NextJs-portfolio/blob/main/docs/Screenshot%20(39).png?raw=true)
 
 
 ## Features
