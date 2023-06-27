@@ -17,7 +17,7 @@ export default function Resume() {
         <div className={utilStyles.resume}>
         <br />
         <Image
-          src="/images/DansResume.jpg"
+          src="/images/DansResume1.jpg"
           alt="resume"
           width={1024}
           height={791}
