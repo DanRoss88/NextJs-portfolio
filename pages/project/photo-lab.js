@@ -25,12 +25,12 @@ export default function PhotoLab() {
           </div>
           <br />
           <div className={utilStyles.list}>
-            <Link href="https://github.com/DanRoss88/photolabs-project">
+            <Link href="https://github.com/DanRoss88/photolabs">
               <AiOutlineLink /> PhotoLabs
             </Link>
           </div>
           <p>
-            Photo Lab is a full-stack web application that allows users to
+            PhotoLabs is a full-stack web application that allows users to
             upload photos, categorize them into topics and store their
             favourite. It was built using React and Node.js. It was my first
             introduction to React.

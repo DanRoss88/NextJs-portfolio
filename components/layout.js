@@ -7,7 +7,7 @@ export const siteTitle = "Dan Ross Professional Portfolio";
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -21,7 +21,6 @@ export default function Layout({ children }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header />
       <main>{children}</main>
 
       {/* <Socials /> */}

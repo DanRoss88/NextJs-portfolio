@@ -2,15 +2,19 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Socials from "../components/socials";
-import BackHome from "../components/backToHome";
-
+import Image from "next/image";
+import Projects from "./projects";
+import Header from "../components/header";
 export default function Home() {
   return (
-    <Layout home>
+    // <Layout home>
+    <div className="main-container">
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
+    <div className="header-container">
+      <Header />
+    </div>
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <strong>Dan</strong>. As a Full-stack Web Developer with a
@@ -24,7 +28,11 @@ export default function Home() {
           can contribute to your team.
         </p>
       </section>
+      <div className = "projects-container" >
+        <Projects />
+      </div>
       <Socials />
-    </Layout>
+    </div>
+    // </Layout>
   );
 }

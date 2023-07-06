@@ -1,7 +1,5 @@
 import Layout from "../components/layout";
 import Head from "next/head";
-import utilStyles from "../styles/utils.module.css";
-import Image from "next/image";
 import Link from "next/link";
 import Socials from "../components/socials";
 
@@ -12,7 +10,7 @@ export default function ContactMe() {
         <title>Contact Me</title>
       </Head>
       <main className="container">
-        <div className={utilStyles.webdevimg}>
+        <div className="webdevimg">
           <br />
           <Image
             src="/images/webdev.png"
@@ -23,11 +21,11 @@ export default function ContactMe() {
         </div>
         <br />
 
-        <div className={utilStyles.contact}>
-          <h1 className={utilStyles.headingXl}>Contact</h1>
+        <div className="contact">
+          <h1 className="headingXl">Contact</h1>
 
           <p>
-            Send me an email at{" "}
+            Send me an email at 
             <Link href="mailto:danielmartinross@gmail.com">
               danielmartinross@gmail.com
             </Link>

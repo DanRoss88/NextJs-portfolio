@@ -7,41 +7,23 @@ import Navbar from "./navbar";
 const name = "Dan Ross";
 export default function Header({ home }) {
   return (
-    <header className={utilStyles.header}>
-      <Navbar />
-      <div className={utilStyles.headerContent}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src={profile}
-              className={utilStyles.borderCircle}
-              height={180}
-              width={169}
-              alt=""
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
+    <header className="header">
+      {/* <Navbar /> */}
             <Link href="/">
               <Image
                 priority
                 src={profile}
-                className={utilStyles.borderCircle}
+                className="borderCircle"
                 height={180}
                 width={169}
                 alt=""
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
+            <h2 className="headingLg">
+              <Link href="/" className="colorInherit">
                 {name}
               </Link>
             </h2>
-          </>
-        )}
-      </div>
     </header>
   );
 }
